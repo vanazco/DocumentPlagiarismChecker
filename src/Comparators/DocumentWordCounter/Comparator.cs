@@ -21,10 +21,10 @@ namespace DocumentPlagiarismChecker.Comparators.DocumentWordCounter
     internal class Comparator: Core.BaseComparator<Document>
     {  
         /// <summary>
-        /// Creates a new instance for the Comparator.
+        /// Crea una nova instancia per la clase "Comparator".
         /// </summary>
-        /// <param name="fileLeftPath">The left side file's path.</param>
-        /// <param name="fileRightPath">The right side file's path.</param>
+        /// <param name="fileLeftPath">La part esquerra de la ruta del fitxer</param>
+        /// <param name="fileRightPath">La part dreta de la ruta del fitxer</param>
         /// <returns></returns>
         public Comparator(string fileLeftPath, string fileRightPath, string sampleFilePath=null): base(fileLeftPath, fileRightPath, sampleFilePath){
         }  
